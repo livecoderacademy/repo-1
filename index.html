@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- css link::start -->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-- css link::end -->
+
+    <!-- font awesome cdn link:start -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font awesome cdn link:end -->
+
+    <!-- EmailJS cdn::start -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+    <!-- EmailJs cdn::end  -->
+
+</head>
+
+<body>
+
+    <!-- When user scroll down then show go to Top Button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"
+            aria-hidden="true"></i></button>
+
+
+    <!-- NavBar Section::START -->
+
+    <nav class="nav">
+
+        <div class="nav_container">
+
+            <div class="logo">
+                <img src="images/jamal.jpg" alt="" style="height: 40px; width: 40px; border-radius: 50%;">
+                <span>DEVELOPER JAMAL</span>
+            </div>
+
+            <div class="main_list" id="mainListDiv">
+                <ul>
+                    <li><a href="#">Home <span></span></a></li>
+                    <li><a href="about.html">About <span></span></a></li>
+                    <li><a href="service.html">services<span></span></a></li>
+                    <li><a href="#">disegn <span></span></a></li>
+                    <li><a href="contact.html">contact <span></span></a></li>
+                </ul>
+            </div>
+
+            <div class="media_button">
+                <button class="main_media_button" id="mediaButton">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+        </div>
+
+    </nav>
+    <!-- NavBar Section::END -->
+
+    <!-- HOME Section:: START -->
+
+    <section class="home">
+
+        <!--home-description & home-btn::start  -->
+        <div class="home_description_container">
+            <div class="home_description">
+
+                <h1>Hi There,</h1>
+
+                <h2>I'am <span class="first_name">Jamal</span> <span class="last_name">Hossain</span></h2>
+
+                <p>I'm a Web Developer, proficient in coding and maintain websites in functionaly and responsively.</p>
+
+            </div>
+            
+            <div id="whatsapp_chat_container">
+                <a id="whatsapp_chat_button" href="#" target="_blank">
+                    Chat Now
+                    <img src="images/WhatsApp.png" alt="WhatsApp Icon" style="height: 30px">
+                </a>
+            </div>
+
+        </div>
+        <!-- -home-description & home-btn::END -->
+
+        <div class="home_image">
+
+            <img src="images/home_page.png" alt="Nature" class="responsive" >
+
+        </div>
+    </section>
+
+    <!-- HOME Section::EMND -->
+
+    <!-- ABOUT Section::START -->
+    <section class="about" id="about">
+
+        <div class="about_img_title">
+
+            <div class="about_title_container">
+
+                <div class="title" >
+                    <h3>NAME:Md Jamal Hossain</h3>
+                </div>
+
+                <div class="title">
+                    <h3>PROFILE:Front-End Developer</h3>
+                </div>
+
+                <div class="title">
+                    <h3>EMAIL: smjamalhossain551@gmail.com</h3>
+                </div>
+
+                <div class="title">
+                    <h3>PHONE:+8801733024768</h3>
+                </div>
+
+            </div>
+
+          <div class="about_img_container">
+            <img src="images/home_page.png" alt="Nature" class="responsive" >
+            </div>
+
+
+
+
+        </div>
+
+        <div class="about_me">
+            <h1>About Me</h1>
+            <h4 class="about_me_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae
+                reprehenderit odit omnis assumenda
+                ratione unde repudiandae, doloribus laboriosam, ea vel nihil maxime voluptas quas dolores esse adipisci
+                pariatur voluptatibus ad. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus impedit eos
+                quam nam quas, obcaecati dolor aliquid. Necessitatibus nihil modi error dolore illum alias! Provident
+                pariatur quisquam vitae iure laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                exercitationem iusto hic! Ad, debitis adipisci! Quas asperiores quasi optio consequuntur! Consequuntur
+                porro inventore rerum error corrupti in ipsum aliquid veritatis.</h4>
+            <button class="about_more_btn"><a href="about.html">Learn More &#10095;</a></button>
+        </div>
+
+    </section>
+    <!-- ABOUT Sction::End -->
+
+    <script src="function.js"></script>
+
+</body>
+
+</html>

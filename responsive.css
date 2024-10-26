@@ -1,0 +1,116 @@
+/* Responsive for Desktop or Laptop::start */
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+
+    /* navbar section::start */
+    .nav_container {
+        margin: 0;
+    }
+
+    .nav div.logo {
+        margin-left: 10px;
+    }
+
+    /* navbar section::end */
+}
+
+/* Responsive for Desktop or Laptop::start */
+
+
+/* Responsive for Mobile Phone::start */
+
+@media screen and (max-width:720px) {
+
+
+    /* navbar section::start */
+    .nav_container {
+        margin: 0;
+    }
+
+    .nav div.logo {
+        margin-left: 15px;
+    }
+
+    .nav div.main_list {
+        width: 100%;
+        margin-top: 65px;
+        height: 0px;
+        overflow: hidden;
+    }
+
+    .nav div.show_list {
+        height: 200px;
+    }
+
+    .nav div.main_list ul {
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        top: 80px;
+        right: 0;
+        left: 0;
+    }
+
+    .nav div.main_list ul li {
+        width: 100%;
+        height: 50px;
+        background-color: rgba(50, 48, 59, 0.8);
+    }
+
+    .nav div.main_list ul li a {
+        text-align: center;
+        line-height: 40px;
+        width: 100%;
+        height: 40px;
+        display: table;
+    }
+
+    .nav div.media_button {
+        display: block;
+    }
+
+    /* navbar section::end */
+
+    /* home section::start */
+    .home {
+        display: grid;
+        width: 100%;
+    }
+
+    .home_description_container {
+        width: 100%;
+    }
+
+    .home_description h1,
+.home_description h2 {
+    font-size: 2rem;
+}
+.home_description p {
+    font-size: 1.3rem;
+}
+
+    .home_image {
+        width: 100%;
+
+    }
+
+    /* home section::end */
+
+    /* about section::START */
+    .about {
+        width: 100%;
+        display: grid;
+    }
+
+    .about_img_title {
+        width: 100%;
+    }
+
+    .about_me {
+        width: 100%;
+    }
+    
+    /* about section::END */
+
+}
+
+/* Responsive for Mobile Phone::end */
